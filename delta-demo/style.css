@@ -1,0 +1,174 @@
+/* FOR DESKTOP FIRST PERSPECTIVE (1440px) */
+* {
+box-sizing: border-box;
+font-family:'Poppins',sans-serif;
+margin: 0;
+padding: 0;
+}
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+background-color: #f9f9f9;
+color: #333;
+}
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px 0;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/* FOR DESKTOPS */
+@media screen and (max-width: 1024px) {
+.container {
+max-width: 1024px;
+}
+}
+/* FOR TABLETS */
+@media screen and (max-width: 768px) {
+.container {
+max-width: 768px;
+}
+}
+/* FOR MOBILES */
+@media screen and (max-width: 480px) {
+.container {
+max-width: 480px;
+}
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+cursor: pointer;
+}
+article ol,
+article ul {
+list-style-position: inside;
+}
+a {
+color: #337ab7;
+text-decoration: none;
+text-underline-position: under;
+text-decoration-thickness: 0.16rem;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.col {
+flex-basis: 0;
+flex-grow: 1;
+margin: 10px;
+}
+.hidden {
+display: none;
+}
+.visible {
+display: block;
+}
