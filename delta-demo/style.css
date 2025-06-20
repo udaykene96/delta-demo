@@ -161,6 +161,10 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 }
+#id{
+    font-size: 24px;
+    font-weight: bold;
+}
 .col {
 flex-basis: 0;
 flex-grow: 1;
